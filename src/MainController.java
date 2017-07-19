@@ -7,7 +7,7 @@ public class MainController {
 		SudokuValidator s = new SudokuValidator();
 		Scanner in = new Scanner(System.in);
 		System.out.println("The Valid Sudoku Cases:");
-		int[][] matrix3 = { { 1, 2, 3 }, { 3, 1, 2 }, { 2, 3, 1 } };
+		int[][] matrix3 = { { 2, 3, 1 }, { 3, 1, 2 }, { 1, 2, 3 } };
 		m.exampleTestCases(s.exampleCases(matrix3, 3), 3);
 		int[][] matrix5 = { { 5, 1, 3, 4, 2 }, { 4, 2, 5, 3, 1 }, { 2, 3, 4, 1, 5 }, { 1, 4, 2, 5, 3 },
 				{ 3, 5, 1, 2, 4 } };
